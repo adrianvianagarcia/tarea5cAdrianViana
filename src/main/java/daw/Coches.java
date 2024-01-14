@@ -121,11 +121,4 @@ public class Coches {
         return sb.toString();
     }
 
-    public int numeroElementos(ArrayList<Coches> lista) {
-        return lista.size();
-    }
-    
-    public boolean estaVacio(): 
-    
-    
 }
