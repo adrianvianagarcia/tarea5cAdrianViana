@@ -17,7 +17,7 @@ public class Catalogo {
         sb.append('}');
         return sb.toString();
     }
-    
+
     public int numeroElementos(ArrayList<Coches> lista) {
         return lista.size();
     }
@@ -31,4 +31,22 @@ public class Catalogo {
 
         return lista.get(posicion);
     }
+
+    public void cambiarElemento(int posicion, Coches c1) {
+
+        lista.set(posicion, c1);
+    }
+
+    public void guardarElemento(Coches c1) {
+        lista.add(c1);
+    }
+
+    public void eliminarElemento(int posicion) {
+        lista.remove(posicion);
+    }
+
+    public void eliminaElemento(Coches c1) {
+        lista.remove(c1);
+    }
+
 }
