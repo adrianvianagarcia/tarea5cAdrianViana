@@ -1,6 +1,5 @@
 package daw;
 
-import java.util.ArrayList;
 import java.util.Objects;
 
 public class Coches {
@@ -111,7 +110,7 @@ public class Coches {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Metodos{");
+        sb.append("{");
         sb.append("marca=").append(marca);
         sb.append(", matricula=").append(matricula);
         sb.append(", modelo=").append(modelo);

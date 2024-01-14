@@ -19,16 +19,15 @@ public class Catalogo {
         return sb.toString();
     }
 
-    public int numeroElementos(ArrayList<Coches> lista) {
+    public int numeroElementos() {
         return lista.size();
     }
 
-    public boolean estaVacio(ArrayList<Coches> lista) {
+    public boolean estaVacio() {
         return lista.isEmpty();
     }
 
-    public Catalogo verElemento(int posicion) {
-        ArrayList<Catalogo> lista = new ArrayList<>();
+    public Coches verElemento(int posicion) {
 
         return lista.get(posicion);
     }
